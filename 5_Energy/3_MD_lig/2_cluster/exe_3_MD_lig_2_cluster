@@ -1,0 +1,8 @@
+cd /home/kun/job/09_MD_Clutser/2025_01_30/5_Energy/3_MD_lig/2_cluster/div_0.8
+./exe &
+cd /home/kun/job/09_MD_Clutser/2025_01_30/5_Energy/3_MD_lig/2_cluster/div_0.7
+./exe &
+cd /home/kun/job/09_MD_Clutser/2025_01_30/5_Energy/3_MD_lig/2_cluster/div_0.6
+./exe &
+cd /home/kun/job/09_MD_Clutser/2025_01_30/5_Energy/3_MD_lig/2_cluster/div_0.5
+./exe &

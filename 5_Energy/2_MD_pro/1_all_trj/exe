@@ -1,0 +1,2 @@
+rm energy
+python energy_1_all_trj.py

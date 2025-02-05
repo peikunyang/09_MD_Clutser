@@ -1,0 +1,10 @@
+#!/bin/bash
+init="step3_input"
+equi_prefix="step4_equilibration"
+input_param="-t toppar.str -p ${init}.psf -c ${init}.crd -b sysinfo.dat"
+start_time=$(date +%s)
+python -u ../../public/openmm_run.py -i ../../public/${equi_prefix}.inp ${input_param} -opdb ${equi_prefix}.pdb > ${equi_prefix}.out
+end_time=$(date +%s)
+execution_time=$((end_time - start_time))
+echo "Execution time: $execution_time seconds"
+

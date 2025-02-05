@@ -1,0 +1,2 @@
+rm pdb/*
+python clu_lig.py

@@ -1,0 +1,2 @@
+rm Energy
+python energy.py

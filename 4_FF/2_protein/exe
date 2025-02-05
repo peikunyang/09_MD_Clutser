@@ -1,0 +1,2 @@
+rm -r par_res/*
+python par.py
