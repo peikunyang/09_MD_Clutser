@@ -4,7 +4,6 @@ This repository contains molecular dynamics (MD) simulation data and computation
 
 ## 📁 Directory Structure
 
-## 📂 Directory Structure
 
 ```
 📂 1_MD/ - Molecular dynamics simulations
