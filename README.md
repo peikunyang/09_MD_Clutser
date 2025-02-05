@@ -4,6 +4,9 @@ This repository contains molecular dynamics (MD) simulation data and computation
 
 ## 📁 Directory Structure
 
+## 📂 Directory Structure
+
+```
 📂 1_MD/ - Molecular dynamics simulations
 ├── 📂 1_pro-lig/ - MD simulations of protein-ligand complexes (subset included)
 ├── 📂 2_protein/ - MD simulations of apo protein (PDB ID: 3IXO)
@@ -22,7 +25,7 @@ This repository contains molecular dynamics (MD) simulation data and computation
 ├── 📂 1_rec_lig/ - Energy calculations using original protein-ligand complexes
 ├── 📂 2_MD_pro/ - Energy calculations using MD-generated protein conformations
 ├── 📂 3_MD_lig/ - Energy calculations using MD-generated ligand conformations
-└── 📂 4_MD_pro_lig/ - Energy calculations using MD-generated protein-ligand
+└── 📂 4_MD_pro_lig/ - Energy calculations using MD-generated protein-ligand complexes
 
 
 ## 📌 Project Overview
