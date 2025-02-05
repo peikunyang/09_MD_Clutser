@@ -25,27 +25,3 @@ This repository contains molecular dynamics (MD) simulation data and computation
    📂 2_MD_pro/ - Energy calculations using MD-generated protein conformations
    📂 3_MD_lig/ - Energy calculations using MD-generated ligand conformations
    📂 4_MD_pro_lig/ - Energy calculations using MD-generated protein-ligand complexes
-
-
-## 📌 Project Overview
-
-### 🔬 Background
-- Structure-based virtual screening (SBVS) often assumes a fixed protein conformation, limiting its accuracy in identifying potential ligands.
-- This study investigates how incorporating multiple protein and ligand conformations improves SBVS accuracy.
-- Molecular dynamics (MD) simulations were performed to generate a diverse set of conformations for HIV-1 protease and its ligands.
-- Force field-based energy calculations were conducted to evaluate binding free energies.
-
-### 🛠 Methods
-1. **Molecular Dynamics Simulations**: Conducted MD simulations for protein-ligand complexes, apo proteins, and ligands.
-2. **Superimposition**: Aligned protein and ligand structures to ensure structural consistency.
-3. **Clustering**: Used RMSD-based clustering to reduce redundant conformations while preserving structural diversity.
-4. **Force Field Preparation**: Generated force field parameters for interaction energy calculations.
-5. **Energy Calculations**: Computed electrostatic (Eele) and van der Waals (Evdw) interaction energies.
-
-## 🚀 Usage
-To analyze the provided datasets or run additional simulations:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo-name.git
-   cd your-repo-name
